@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.instructions {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    color: #666;
+}
+
+.instruction__item {
+    padding: 12px 18px;
+    border: 1px solid #e3e3e3;
+}
+
+.instruction__description {
+    border: none;
+}
+
+.instruction-key__key {
+    font-weight: bold;
+}
